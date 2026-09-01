@@ -43,7 +43,7 @@ Advanced Algorithms
 
 Problem Solving
 
-# Day 01: Programming Fundamentals
+# Day 00: Programming Fundamentals
 
 ## Objective
 
@@ -92,9 +92,3 @@ Understanding variables, data types, operators, input, output, and program flow 
 ## Learning Approach
 
 Programming fundamentals will be covered gradually through practical Python programs, starting with basic concepts and progressively moving toward more advanced programming and computer science concepts.
-
-## Day 01 Completed
-
-**Focus:** Core Programming Concepts and Python Basics
-
-**Next:** Continue with the next fundamental concepts of programming.
