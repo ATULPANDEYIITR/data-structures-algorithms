@@ -1,5 +1,5 @@
 # ============================================================
-# DAY 01: PROGRAMMING FUNDAMENTALS
+# DAY 00: PROGRAMMING FUNDAMENTALS
 # ============================================================
 
 # Programming is the process of giving instructions to a computer.
