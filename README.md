@@ -1,94 +1,124 @@
-# data-structures-algorithms
-My learning journey through Data Structures and Algorithms, from fundamentals to problem solving and optimization.
+# Data Structures and Algorithms: 120-Day Learning Schedule
 
-This repository documents my journey of learning Data Structures and Algorithms (DSA) from the fundamentals to advanced problem solving.
-
-## Goal
-
-To develop strong problem-solving skills and understand how to design efficient algorithms and choose appropriate data structures.
-
-## Learning Path
-
-Programming Fundamentals
-
-Complexity Analysis
-
-Arrays & Strings
-
-Linked Lists
-
-Stacks & Queues
-
-Hashing
-
-Recursion
-
-Searching & Sorting
-
-Trees
-
-Binary Search Trees
-
-Heaps & Priority Queues
-
-Graphs
-
-Greedy Algorithms
-
-Dynamic Programming
-
-Backtracking
-
-Advanced Algorithms
-
-Problem Solving
-
-# Day 00: Programming Fundamentals
-
-## Objective
-
-Build a foundational understanding of programming by learning how Python programs are written, how instructions are executed, and how basic programming concepts work together.
-
-## Topics Covered
-
-* What is Programming?
-* Programs and Instructions
-* Comments
-* Displaying Output
-* Variables
-* Basic Data Types
-* Checking Data Types
-* Arithmetic Operators
-* String Operations
-* User Input
-* Type Conversion
-* Comparison Operators
-* Basic Program Flow
-
-## Code Implementation
-
-The Python program demonstrates:
-
-* Using the `print()` function
-* Writing comments
-* Creating and using variables
-* Working with strings, integers, floats, and Boolean values
-* Checking data types using `type()`
-* Performing arithmetic operations
-* Performing basic string operations
-* Taking user input using `input()`
-* Converting values between data types
-* Comparing values using comparison operators
-* Understanding how Python executes instructions
-
-**External Libraries:** None
-
-## Why This Matters
-
-Programming fundamentals form the foundation for every area of computer science and software development.
-
-Understanding variables, data types, operators, input, output, and program flow is essential before progressing to topics such as conditional statements, loops, functions, data structures, algorithms, and software development.
-
-## Learning Approach
-
-Programming fundamentals will be covered gradually through practical Python programs, starting with basic concepts and progressively moving toward more advanced programming and computer science concepts.
+| Day | Topic                                             | Detailed Learning Focus                                                                                                                                                                                                    |
+| --- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Introduction to Data Structures and Algorithms    | Understand what data structures and algorithms are, why they are important, real-world applications, algorithmic problem solving, and the relationship between data organization and efficient computation.                |
+| 2   | Programming Foundations for DSA                   | Review variables, data types, operators, conditions, loops, functions, recursion basics, arrays, strings, and input/output required for implementing DSA.                                                                  |
+| 3   | Introduction to Complexity Analysis               | Learn why algorithm efficiency matters and understand time complexity, space complexity, best case, average case, and worst case analysis.                                                                                 |
+| 4   | Big-O Notation                                    | Study Big-O notation and analyze constant, logarithmic, linear, linearithmic, quadratic, cubic, and exponential complexity.                                                                                                |
+| 5   | Asymptotic Notations                              | Learn Big-O, Big-Omega, and Big-Theta notation and understand upper bounds, lower bounds, and tight bounds.                                                                                                                |
+| 6   | Complexity Analysis of Loops                      | Analyze single loops, nested loops, consecutive loops, dependent loops, logarithmic loops, and combinations of loops.                                                                                                      |
+| 7   | Complexity Analysis of Recursive Algorithms       | Learn recursion trees, recurrence relations, and how to calculate the time and space complexity of recursive programs.                                                                                                     |
+| 8   | Master Theorem                                    | Study divide-and-conquer recurrence relations and apply the Master Theorem to analyze recursive algorithms.                                                                                                                |
+| 9   | Mathematical Foundations for DSA                  | Review logarithms, summations, factorials, permutations, combinations, powers, modular arithmetic, and basic probability concepts.                                                                                         |
+| 10  | Problem-Solving Fundamentals                      | Learn how to understand a problem, identify constraints, create examples, find brute-force solutions, optimize solutions, and validate edge cases.                                                                         |
+| 11  | Arrays Introduction                               | Understand arrays, memory representation, indexing, traversal, insertion, deletion, updating, and searching operations.                                                                                                    |
+| 12  | Array Complexity                                  | Analyze time and space complexity of common array operations and understand static versus dynamic arrays.                                                                                                                  |
+| 13  | Array Traversal Problems                          | Solve traversal-based problems including finding maximum, minimum, sum, average, frequency, and conditional elements.                                                                                                      |
+| 14  | Array Searching Problems                          | Implement linear search and solve searching-related problems involving first occurrence, last occurrence, duplicates, and conditions.                                                                                      |
+| 15  | Array Manipulation                                | Practice insertion, deletion, rotation, reversing, shifting, swapping, and rearranging array elements.                                                                                                                     |
+| 16  | Prefix Sum                                        | Learn prefix sums, range sum queries, multidimensional prefix sums, and optimization of repeated range calculations.                                                                                                       |
+| 17  | Difference Arrays                                 | Understand difference arrays and their use in efficient range update problems.                                                                                                                                             |
+| 18  | Two Pointer Technique                             | Learn two-pointer strategies for sorted arrays, pair problems, partitioning, reversing, and removing duplicates.                                                                                                           |
+| 19  | Sliding Window Technique                          | Study fixed-size and variable-size sliding windows for subarrays, substrings, maximum/minimum windows, and optimization problems.                                                                                          |
+| 20  | Advanced Array Problems                           | Solve problems involving subarrays, rearrangements, majority elements, missing numbers, duplicates, and array transformations.                                                                                             |
+| 21  | Kadane's Algorithm                                | Learn maximum subarray problems, Kadane's algorithm, circular subarrays, and variations involving minimum subarrays.                                                                                                       |
+| 22  | Matrix Fundamentals                               | Understand two-dimensional arrays, matrix representation, traversal, insertion concepts, and matrix operations.                                                                                                            |
+| 23  | Matrix Traversal Algorithms                       | Practice row-wise, column-wise, diagonal, spiral, zigzag, and boundary traversal.                                                                                                                                          |
+| 24  | Advanced Matrix Problems                          | Solve matrix rotation, transpose, searching in sorted matrices, prefix matrices, and grid-based problems.                                                                                                                  |
+| 25  | Strings Introduction                              | Understand string representation, characters, ASCII, Unicode concepts, traversal, comparison, and manipulation.                                                                                                            |
+| 26  | String Operations                                 | Practice concatenation, substring extraction, reversing, character replacement, deletion, insertion, and frequency counting.                                                                                               |
+| 27  | String Pattern Problems                           | Solve palindrome, anagram, substring, subsequence, character frequency, and string transformation problems.                                                                                                                |
+| 28  | Hashing Introduction                              | Understand hash functions, hash tables, collisions, chaining, open addressing, and load factors.                                                                                                                           |
+| 29  | Hash Maps and Hash Sets                           | Learn efficient lookup, insertion, deletion, frequency counting, duplicate detection, and set operations.                                                                                                                  |
+| 30  | Advanced Hashing Problems                         | Solve prefix-sum hashing, longest subarray problems, frequency-based problems, grouping problems, and pair-sum problems.                                                                                                   |
+| 31  | Linked List Introduction                          | Understand linked list structure, nodes, pointers/references, memory allocation, and comparison with arrays.                                                                                                               |
+| 32  | Singly Linked List                                | Implement traversal, insertion, deletion, searching, updating, and reversing in singly linked lists.                                                                                                                       |
+| 33  | Doubly Linked List                                | Learn previous and next pointers, forward and backward traversal, insertion, deletion, and advantages over singly linked lists.                                                                                            |
+| 34  | Circular Linked List                              | Understand circular singly and doubly linked lists and implement traversal, insertion, and deletion.                                                                                                                       |
+| 35  | Linked List Reversal                              | Learn iterative and recursive reversal and solve reverse-in-groups problems.                                                                                                                                               |
+| 36  | Fast and Slow Pointer Technique                   | Learn Floyd's cycle detection algorithm, middle element finding, cycle detection, and cycle removal.                                                                                                                       |
+| 37  | Advanced Linked List Problems                     | Solve intersection, merging, sorting, copying random pointers, flattening, and partitioning linked lists.                                                                                                                  |
+| 38  | Stack Introduction                                | Understand LIFO behavior, stack operations, array-based stacks, linked-list stacks, and applications.                                                                                                                      |
+| 39  | Stack Applications                                | Solve balanced parentheses, expression evaluation, function call simulation, and undo/redo concepts.                                                                                                                       |
+| 40  | Monotonic Stack                                   | Learn increasing and decreasing monotonic stacks and solve next greater, next smaller, and histogram problems.                                                                                                             |
+| 41  | Advanced Stack Problems                           | Solve largest rectangle, trapping rainwater, stock span, expression conversion, and advanced stack-based algorithms.                                                                                                       |
+| 42  | Queue Introduction                                | Understand FIFO behavior, queue operations, array implementation, and linked-list implementation.                                                                                                                          |
+| 43  | Circular Queue                                    | Learn circular queues, front/rear pointers, overflow handling, and efficient queue implementation.                                                                                                                         |
+| 44  | Deque                                             | Understand double-ended queues and solve sliding window maximum and minimum problems.                                                                                                                                      |
+| 45  | Priority Queue                                    | Learn priority queues, heap-backed queues, scheduling problems, and priority-based processing.                                                                                                                             |
+| 46  | Recursion Fundamentals                            | Understand recursive thinking, base cases, recursive cases, call stacks, and recursive problem decomposition.                                                                                                              |
+| 47  | Basic Recursion Problems                          | Solve factorial, Fibonacci, power calculation, sum of digits, reverse numbers, and recursive array traversal.                                                                                                              |
+| 48  | Recursion Trees                                   | Learn recursion trees and visualize recursive execution and branching behavior.                                                                                                                                            |
+| 49  | Backtracking Introduction                         | Understand decision trees, choices, constraints, undo operations, and state-space exploration.                                                                                                                             |
+| 50  | Backtracking Problems                             | Solve subsets, permutations, combinations, N-Queens, Sudoku, and path-finding problems.                                                                                                                                    |
+| 51  | Binary Search Introduction                        | Understand binary search, sorted data requirements, search boundaries, and iterative and recursive implementations.                                                                                                        |
+| 52  | Binary Search Variations                          | Solve first occurrence, last occurrence, lower bound, upper bound, insertion position, and duplicate-related problems.                                                                                                     |
+| 53  | Binary Search on Answer                           | Learn answer-space searching and solve allocation, capacity, speed, minimum/maximum optimization problems.                                                                                                                 |
+| 54  | Advanced Binary Search                            | Solve rotated arrays, bitonic arrays, matrix search, peak finding, and advanced search problems.                                                                                                                           |
+| 55  | Sorting Introduction                              | Understand stable versus unstable sorting, in-place sorting, comparison sorting, and sorting complexity.                                                                                                                   |
+| 56  | Bubble, Selection and Insertion Sort              | Implement and analyze elementary sorting algorithms and understand their practical limitations.                                                                                                                            |
+| 57  | Merge Sort                                        | Learn divide-and-conquer sorting, merging, recursion, stability, and complexity analysis.                                                                                                                                  |
+| 58  | Quick Sort                                        | Understand partitioning strategies, pivot selection, randomized quicksort, and worst-case scenarios.                                                                                                                       |
+| 59  | Heap Sort                                         | Learn heap-based sorting and compare heap sort with merge sort and quicksort.                                                                                                                                              |
+| 60  | Non-Comparison Sorting                            | Study counting sort, radix sort, bucket sort, and conditions under which they outperform comparison sorting.                                                                                                               |
+| 61  | Binary Trees Introduction                         | Understand tree terminology including root, leaf, parent, child, height, depth, level, subtree, and degree.                                                                                                                |
+| 62  | Binary Tree Traversals                            | Implement preorder, inorder, postorder, and level-order traversal using recursion and iteration.                                                                                                                           |
+| 63  | Binary Tree Properties                            | Study height, diameter, balanced trees, leaf nodes, internal nodes, and structural properties.                                                                                                                             |
+| 64  | Binary Tree Problems                              | Solve maximum depth, minimum depth, path sum, diameter, balanced tree, and node counting problems.                                                                                                                         |
+| 65  | Lowest Common Ancestor                            | Learn LCA concepts in binary trees and solve ancestor-related problems.                                                                                                                                                    |
+| 66  | Binary Search Tree Introduction                   | Understand BST properties, searching, insertion, deletion, predecessor, and successor operations.                                                                                                                          |
+| 67  | BST Traversal and Validation                      | Learn sorted traversal, BST validation, minimum/maximum, floor, ceiling, and range queries.                                                                                                                                |
+| 68  | Advanced BST Problems                             | Solve kth smallest, BST construction, balancing concepts, LCA in BST, and conversion problems.                                                                                                                             |
+| 69  | AVL Trees                                         | Understand self-balancing BSTs, balance factors, LL, RR, LR, and RL rotations.                                                                                                                                             |
+| 70  | Red-Black Trees                                   | Study red-black properties, balancing principles, rotations, and practical applications.                                                                                                                                   |
+| 71  | Heap Introduction                                 | Understand complete binary trees, min-heaps, max-heaps, heap representation, and heap properties.                                                                                                                          |
+| 72  | Heap Operations                                   | Implement insertion, deletion, heapify, extract-min/max, and priority queue operations.                                                                                                                                    |
+| 73  | Heap Problems                                     | Solve kth largest/smallest, top-k elements, merging sorted structures, and stream processing problems.                                                                                                                     |
+| 74  | Advanced Heap Problems                            | Solve median from data stream, scheduling, multiple sorted lists, and greedy optimization problems.                                                                                                                        |
+| 75  | Trie Introduction                                 | Understand prefix trees, nodes, character transitions, insertion, searching, and prefix matching.                                                                                                                          |
+| 76  | Trie Applications                                 | Solve autocomplete, prefix searching, dictionary problems, and word search problems.                                                                                                                                       |
+| 77  | Advanced Trie                                     | Learn compressed tries, bitwise tries, XOR problems, and maximum XOR pair algorithms.                                                                                                                                      |
+| 78  | Graph Introduction                                | Understand vertices, edges, directed graphs, undirected graphs, weighted graphs, and graph representations.                                                                                                                |
+| 79  | Graph Representation                              | Implement adjacency matrices, adjacency lists, edge lists, and compare memory and performance trade-offs.                                                                                                                  |
+| 80  | Breadth-First Search                              | Learn BFS traversal, queue-based implementation, shortest path in unweighted graphs, and connected components.                                                                                                             |
+| 81  | Depth-First Search                                | Learn recursive and iterative DFS, graph traversal, connected components, and graph exploration.                                                                                                                           |
+| 82  | Graph Cycle Detection                             | Detect cycles in directed and undirected graphs using DFS, BFS, and disjoint set techniques.                                                                                                                               |
+| 83  | Topological Sorting                               | Learn DAGs, dependency resolution, DFS-based topological sorting, and Kahn's algorithm.                                                                                                                                    |
+| 84  | Shortest Path Introduction                        | Understand shortest-path problems, weighted graphs, negative edges, and algorithm selection.                                                                                                                               |
+| 85  | Dijkstra's Algorithm                              | Implement Dijkstra using priority queues and solve shortest path problems with non-negative weights.                                                                                                                       |
+| 86  | Bellman-Ford Algorithm                            | Learn relaxation, negative edge handling, negative cycle detection, and complexity analysis.                                                                                                                               |
+| 87  | Floyd-Warshall Algorithm                          | Study all-pairs shortest paths, dynamic programming formulation, and path reconstruction.                                                                                                                                  |
+| 88  | Minimum Spanning Tree                             | Understand spanning trees, minimum cost connections, and applications of MST algorithms.                                                                                                                                   |
+| 89  | Prim's Algorithm                                  | Implement Prim's algorithm using priority queues and adjacency lists.                                                                                                                                                      |
+| 90  | Kruskal's Algorithm                               | Learn edge sorting, greedy selection, cycle prevention, and MST construction.                                                                                                                                              |
+| 91  | Disjoint Set Union                                | Understand union-find, path compression, union by rank, and connected component applications.                                                                                                                              |
+| 92  | Strongly Connected Components                     | Learn Kosaraju's algorithm and Tarjan's algorithm for strongly connected components.                                                                                                                                       |
+| 93  | Bridges and Articulation Points                   | Identify critical edges and critical vertices in undirected graphs using DFS low-link values.                                                                                                                              |
+| 94  | Advanced Graph Algorithms                         | Study bipartite graphs, graph coloring, Euler paths, Hamiltonian paths, and advanced traversal problems.                                                                                                                   |
+| 95  | Greedy Algorithms Introduction                    | Understand greedy-choice property, optimal substructure, correctness intuition, and greedy strategy design.                                                                                                                |
+| 96  | Classical Greedy Problems                         | Solve activity selection, fractional knapsack, job sequencing, interval scheduling, and minimum platforms.                                                                                                                 |
+| 97  | Advanced Greedy Algorithms                        | Solve Huffman coding, interval merging, resource allocation, scheduling, and optimization problems.                                                                                                                        |
+| 98  | Dynamic Programming Introduction                  | Understand overlapping subproblems, optimal substructure, memoization, and tabulation.                                                                                                                                     |
+| 99  | 1D Dynamic Programming                            | Solve Fibonacci, climbing stairs, house robber, maximum non-adjacent sum, and basic optimization problems.                                                                                                                 |
+| 100 | 2D Dynamic Programming                            | Solve grid paths, minimum path sum, unique paths, matrix-based DP, and obstacle problems.                                                                                                                                  |
+| 101 | Knapsack Dynamic Programming                      | Learn 0/1 knapsack, unbounded knapsack, subset sum, partition problems, and coin change.                                                                                                                                   |
+| 102 | Longest Common Subsequence                        | Solve LCS, longest common substring, edit distance, and sequence comparison problems.                                                                                                                                      |
+| 103 | Longest Increasing Subsequence                    | Learn LIS using dynamic programming, binary search optimization, and sequence reconstruction.                                                                                                                              |
+| 104 | String Dynamic Programming                        | Solve palindrome partitioning, edit distance, wildcard matching, and regex-style DP problems.                                                                                                                              |
+| 105 | Interval Dynamic Programming                      | Learn matrix chain multiplication, burst balloons, optimal BST, and interval partitioning problems.                                                                                                                        |
+| 106 | Tree Dynamic Programming                          | Apply DP concepts to trees for subtree problems, independent sets, paths, and rerooting concepts.                                                                                                                          |
+| 107 | Bit Manipulation Fundamentals                     | Understand binary representation, AND, OR, XOR, NOT, shifts, masks, and bitwise identities.                                                                                                                                |
+| 108 | Bit Manipulation Problems                         | Solve single number, counting bits, power-of-two checks, subsets, XOR tricks, and bit masks.                                                                                                                               |
+| 109 | Advanced Bitmasking                               | Learn bitmask dynamic programming, subset iteration, state compression, and combinatorial optimization.                                                                                                                    |
+| 110 | Number Theory for Algorithms                      | Study prime numbers, divisibility, GCD, LCM, modular arithmetic, and efficient mathematical algorithms.                                                                                                                    |
+| 111 | Prime Algorithms                                  | Learn sieve of Eratosthenes, segmented sieve, prime factorization, and prime-related optimizations.                                                                                                                        |
+| 112 | Modular Arithmetic                                | Study modular exponentiation, modular inverse, Fermat's theorem, Euler's theorem, and modular combinatorics.                                                                                                               |
+| 113 | Advanced Number Theory                            | Learn Euclidean algorithm extensions, Chinese Remainder Theorem, combinatorial mathematics, and advanced competitive programming applications.                                                                             |
+| 114 | String Matching Algorithms                        | Study brute-force matching, Rabin-Karp, rolling hashes, and pattern searching techniques.                                                                                                                                  |
+| 115 | KMP Algorithm                                     | Learn prefix functions, LPS arrays, efficient pattern matching, and KMP applications.                                                                                                                                      |
+| 116 | Advanced String Algorithms                        | Study Z-algorithm, suffix arrays, suffix trees, longest repeated substring, and advanced string queries.                                                                                                                   |
+| 117 | Segment Trees                                     | Understand range queries, range updates, lazy propagation, tree construction, and advanced query problems.                                                                                                                 |
+| 118 | Fenwick Tree and Advanced Range Queries           | Learn Binary Indexed Trees, prefix updates, range queries, coordinate compression, and comparisons with segment trees.                                                                                                     |
+| 119 | Advanced Algorithms and Techniques                | Explore meet-in-the-middle, Mo's algorithm, sqrt decomposition, randomized algorithms, approximation algorithms, and advanced optimization techniques.                                                                     |
+| 120 | Extreme Advanced DSA Revision and Problem Solving | Perform comprehensive revision of all major topics, solve mixed hard problems, analyze multiple approaches, optimize solutions, study competitive programming patterns, and build a long-term DSA problem-solving roadmap. |
