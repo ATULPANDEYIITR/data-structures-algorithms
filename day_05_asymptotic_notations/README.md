@@ -35,7 +35,6 @@ Correctly defining input size is essential because complexity is expressed relat
 
 For graph algorithms, two parameters may be required:
 
-```text
 n = number of vertices
 m = number of edges
 
