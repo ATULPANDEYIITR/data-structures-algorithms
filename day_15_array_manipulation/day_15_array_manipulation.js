@@ -1,4 +1,3 @@
-/**
  * Array Manipulation: Beginner to Advanced JavaScript Study
  *
  * JavaScript arrays are dynamic, indexed collections. They can hold values
