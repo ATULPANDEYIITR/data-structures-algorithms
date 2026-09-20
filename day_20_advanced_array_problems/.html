@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive advanced array algorithm laboratory">
+  <title>Advanced Array Problems</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <p class="eyebrow">Algorithm Laboratory</p>
+      <h1>Advanced Array Problems</h1>
+      <p>
+        Explore subarrays, majority elements, missing values, duplicates,
+        rotations, products, rearrangements and three-sum searches.
+      </p>
+    </header>
+
+    <section class="panel">
+      <label for="operation">Algorithm</label>
+      <select id="operation">
+        <option value="max-subarray">Maximum subarray sum</option>
+        <option value="majority">Majority element</option>
+        <option value="missing">Missing number</option>
+        <option value="duplicate">Duplicate number</option>
+        <option value="rotate">Rotate array</option>
+        <option value="product-except-self">Product except self</option>
+        <option value="alternate">Alternate signs</option>
+        <option value="longest-consecutive">Longest consecutive sequence</option>
+        <option value="three-sum">Three sum</option>
+      </select>
+
+      <label for="values">Array</label>
+      <input id="values" value="[ -2, 1, -3, 4, -1, 2, 1, -5, 4 ]">
+
+      <label for="parameter">Parameter</label>
+      <input id="parameter" value="0" type="number">
+
+      <button id="run">Run algorithm</button>
+    </section>
+
+    <section class="panel">
+      <h2>Result</h2>
+      <pre id="result" aria-live="polite">Run an algorithm to see the result.</pre>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
